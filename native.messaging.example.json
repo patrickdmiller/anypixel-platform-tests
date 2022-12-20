@@ -1,0 +1,9 @@
+{
+  "name": "native.messaging.example",
+  "description": "Native Messaging Host Protocol Example",
+  "path": "/Users/patrickmiller/programming/native-messaging-extension/local/example.js",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ckhmodclabpdnfeckldneegkmbhdlgbe/"
+  ]
+}
