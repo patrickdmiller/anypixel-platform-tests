@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Reading time",
-  "version": "1.0",
-  "description": "Add the reading time to Chrome Extension documentation articles",
+  "name": "native messaging fun",
+  "version": "0.1",
+  "description": "bare bones extension for native messaging and testing troughput",
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
@@ -21,6 +21,6 @@
   "background":{
     "service_worker":"scripts/background.js"
   },
-  "permissions": ["nativeMessaging", "tabs"]
+  "permissions": ["nativeMessaging"]
 
 }
