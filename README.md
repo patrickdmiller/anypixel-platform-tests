@@ -1,0 +1,5 @@
+- test native messaging with chrome extension
+- some code from https://github.com/simov/native-messaging/
+- testing throughput by modifying example
+- put native.messaging.example.json in ```~/Library/Application\ Support/Google/Chrome/NativeMessagingHosts/native.messaging.example.json```
+- modify native.messaging.example.json with the right addon id and path
