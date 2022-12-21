@@ -13,14 +13,18 @@
     {
       "js": ["scripts/content.js"],
       "matches": [
-        "https://*.google.com/*",
-        "https://developer.chrome.com/docs/webstore/*"
+        "https://pdkm.ngrok.io/*"
       ]
     }
   ],
+  "action":{},
   "background":{
     "service_worker":"scripts/background.js"
   },
-  "permissions": ["nativeMessaging"]
+  "permissions": ["nativeMessaging", "tabs", "activeTab", "scripting"],
+  "externally_connectable": {
+    "matches": ["https://pdkm.ngrok.io/*"]
+  }
+  
 
 }
